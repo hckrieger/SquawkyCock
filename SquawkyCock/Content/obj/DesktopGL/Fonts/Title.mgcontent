@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Fonts/Score.spritefont</SourceFile>
-  <SourceTime>2022-03-12T13:34:06.5216827-05:00</SourceTime>
-  <DestFile>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/bin/DesktopGL/Fonts/Score.xnb</DestFile>
-  <DestTime>2022-03-12T14:16:50.6788402-05:00</DestTime>
+  <SourceFile>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Fonts/Title.spritefont</SourceFile>
+  <SourceTime>2018-12-08T11:35:46-05:00</SourceTime>
+  <DestFile>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/bin/DesktopGL/Fonts/Title.xnb</DestFile>
+  <DestTime>2022-03-14T17:30:33.0683868-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

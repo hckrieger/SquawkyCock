@@ -51,7 +51,7 @@ namespace SquawkyCock.GameObjects
         {
             base.HandleInput(inputHelper);
 
-            if ((inputHelper.KeyPressed(Keys.Space) || inputHelper.MouseLeftButtonPressed()) && InControl)
+            if ((inputHelper.KeyPressed(Keys.Space) || inputHelper.MouseLeftButtonPressed()) && InControl && GlobalPosition.Y > -50)
             {
                 velocity.Y = -jumpSpeed;
                 if (MainScene.CurrentState == MainScene.State.Start)
@@ -73,7 +73,7 @@ namespace SquawkyCock.GameObjects
             base.Reset();
             LocalPosition = new Vector2(xPos, 200);
             InControl = true;
-            Rotation = MathHelper.ToRadians(-25);
+            Rotation = MathHelper.ToRadians(-15);
         }
 
         private MainScene MainScene => (MainScene)ExtendedGame.GameStateManager.GetGameState(Game1.STATE_MAIN);

@@ -17,7 +17,10 @@ namespace SquawkyCock.Scenes
         float pipeTimer, startPipeTimer;
         Bird bird = new Bird();
 
+        TextGameObject instructions = new TextGameObject("Fonts/Instructions", 1f, Color.Black, TextGameObject.Alignment.Center);
+        TextGameObject title = new TextGameObject("Fonts/Title", 1f, Color.Black, TextGameObject.Alignment.Center);
         TextGameObject scoreFont = new TextGameObject("Fonts/Score", 1f, Color.White, TextGameObject.Alignment.Center);
+        TextGameObject credit = new TextGameObject("Fonts/Instructions", 1f, Color.Black, TextGameObject.Alignment.Center);
         Menu menu;
         int score;
 
@@ -33,12 +36,26 @@ namespace SquawkyCock.Scenes
 
         public MainScene(Point windowSize)
         {
+            title.Text = "Squawky Cock";
+            title.LocalPosition = new Vector2(windowSize.X / 2, 60);
+            gameObjects.AddChild(title);
+
+            instructions.Text = "  Continually press space  \n  or left click to stay aloat.\n     Watch out for pipes!";
+            instructions.LocalPosition = new Vector2(windowSize.X / 2, 260);
+            gameObjects.AddChild(instructions);
+
             gameObjects.AddChild(bird);
+
+            scoreFont.LocalPosition = new Vector2(windowSize.X / 2, 110);
             gameObjects.AddChild(scoreFont);
             gameObjects.AddChild(background);
+
             menu = new Menu(windowSize);
             gameObjects.AddChild(menu);
-            scoreFont.LocalPosition = new Vector2(windowSize.X / 2, 110);
+
+            credit.LocalPosition = new Vector2(windowSize.X / 2, windowSize.Y - 35);
+            credit.Text = "Programmed by Hunter Krieger";
+            gameObjects.AddChild(credit);
 
             for (int i = 0; i < 3; i++)
             {
@@ -55,6 +72,7 @@ namespace SquawkyCock.Scenes
 
             pipeTimer = 1.6f;
             startPipeTimer = pipeTimer;
+
             Reset();
         }
 
@@ -78,7 +96,18 @@ namespace SquawkyCock.Scenes
             }
 
             if (CurrentState == State.Playing)
+            {
                 pipeTimer -= dt;
+                title.Active = false;
+                instructions.Active = false;
+                credit.Active = false;
+                scoreFont.Visible = true;
+                
+            }
+
+
+            scoreFont.Text = score.ToString();
+
 
             //Active a new pipe every x seconds.
             if (pipeTimer <= 0)
@@ -124,7 +153,8 @@ namespace SquawkyCock.Scenes
             }
 
 
-            scoreFont.Text = score.ToString();
+            if (title.Active)
+                scoreFont.Visible = false;
 
 
             if (CurrentState == State.End)
@@ -158,6 +188,7 @@ namespace SquawkyCock.Scenes
             foreach (var obj in pipePool)
                 obj.Reset();
             scoreFont.Visible = true;
+           
         }
 
     }

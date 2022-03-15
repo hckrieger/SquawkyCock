@@ -7,6 +7,7 @@
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Fonts/Retry.spritefont</File>
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Fonts/Score.spritefont</File>
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Fonts/TextDescription.spritefont</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Fonts/Title.spritefont</File>
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Sprites/Background.png</File>
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Sprites/Bird.png</File>
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Sprites/GameOverMenu.png</File>
@@ -15,6 +16,7 @@
     <File>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Sprites/PlayAgain.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

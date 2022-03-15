@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/Sprites/Bird.png</SourceFile>
-  <SourceTime>2022-03-04T17:50:24.216578-05:00</SourceTime>
+  <SourceTime>2022-03-14T17:15:13.9861416-04:00</SourceTime>
   <DestFile>C:/Users/hunte/source/repos/MonoGame/games/SquawkyCock/SquawkyCock/Content/bin/DesktopGL/Content/Sprites/Bird.xnb</DestFile>
-  <DestTime>2022-03-04T17:51:30.5368686-05:00</DestTime>
+  <DestTime>2022-03-14T17:15:51.3263501-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T12:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

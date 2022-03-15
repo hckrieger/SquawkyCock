@@ -30,8 +30,10 @@ C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\net
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Sprites\Bird.xnb
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Fonts\Score.xnb
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Sprites\Background.xnb
-C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Sprites\GameOverMenu.xnb
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Fonts\TextDescription.xnb
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Sprites\PlayAgain.xnb
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Fonts\Retry.xnb
 C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Sprites\Pipe@2x1.xnb
+C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Sprites\GameOverMenu.xnb
+C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Fonts\Title.xnb
+C:\Users\hunte\source\repos\MonoGame\games\SquawkyCock\SquawkyCock\bin\Debug\netcoreapp3.1\Content\Fonts\Instructions.xnb
